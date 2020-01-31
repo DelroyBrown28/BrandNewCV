@@ -1,1 +1,104 @@
-htrhtr
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #fafafa;
+}
+
+.top-band {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background-color: #E5EAE9;
+}
+
+.socials {
+    position: relative;
+    height: 50px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fab {
+    font-size: 19px;
+    color: #47474A;
+    opacity: 0.7;
+}
+
+.fab:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.fa-facebook-f {
+    margin: 0px 10px 0px 10px;
+}
+
+.name-band {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-color: #47474A;
+
+}
+
+.DBlogo {
+    position: absolute;
+    left: 200px;
+    top: 85px;
+
+}
+
+.delroybrown {
+    position: absolute;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #fafafa;
+    font-weight: normal;
+    font-size: 80px;
+    left: 364px;
+    top: 103px;
+}
+
+.sub-title {
+    position: absolute;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #fafafa;
+    font-weight: lighter;
+    font-size: 19px;
+    left: 364px;
+    bottom: 82px;
+}
+
+.contactInfoBox {
+    position: absolute;
+    width: 490px;
+    height: 132px;
+    border-left: 1px solid #97C3B1;
+    right: 238px;
+    top: 84px;
+    padding-left: 37px;
+
+}
+
+.phone,
+.email,
+.address {
+    color: #fafafa;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    
+}
+
+.fas {
+    margin-right: 13px;
+}
+
+span {
+    color: #97C3B1;
+    font-weight: 300;
+}
