@@ -9,9 +9,11 @@ html {
 
 .top-band {
     position: relative;
-    height: 50px;
+    height: 30px;
     width: 100%;
     background-color: #E5EAE9;
+    display: flex;
+    align-items: center;
 }
 
 .bottom-band {
@@ -30,15 +32,16 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.fab {
-    font-size: 19px;
+    font-size: 17px;
     color: #47474A;
-    opacity: 0.7;
+
 }
 
-.fab:hover {
+.social-icons {
+    opacity: 0.6;
+}
+
+.social-icons:hover {
     opacity: 1;
     cursor: pointer;
 }
@@ -131,7 +134,7 @@ html {
     width: 309px;
     height: 235px;
     left: 109px;
-    top: 62px;
+    top: 40px;
     display: flex;
     justify-content: center;
 }
@@ -199,7 +202,7 @@ html {
     position: absolute;
     width: 337px;
     height: 171px;
-    top: 62px;
+    top: 40px;
     display: flex;
     justify-content: center;
 
@@ -348,7 +351,7 @@ html {
     height: 234px;
     width: 410px;
     right: 109px;
-    top: 62px;
+    top: 40px;
     display: flex;
     justify-content: center;
 
@@ -400,6 +403,9 @@ html {
     width: 1522px;
     height: 220px;
     bottom: 105px;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .workExperiece-title {
@@ -414,27 +420,35 @@ html {
 }
 
 .timeline {
-    position: relative;
+    position: absolute;
+    border: 1px solid #000;
     top: 60px;
+    width: 1522px;
+}
+
+.tgi-box {
+    position: absolute;
+    width: 290px;
+    height: 161px;
+    bottom: 4.5px;
+    left: 0;
 }
 
 .timeline-circle1 {
     position: absolute;
-    top: 53px;
+    top: 0;
     left: 12px;
 }
+
 
 .tgifridays-title {
     position: absolute;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 20px;
-    top: 75px;
+    margin: 0;
+    top: 46px;
 
-}
-
-.thinText {
-    font-weight: 200;
 }
 
 .tgi-blurb {
@@ -443,5 +457,125 @@ html {
     font-size: 20px;
     bottom: 0;
     font-weight: 200;
+    margin: 0;
 
+}
+
+
+.cpm-box {
+    position: absolute;
+    width: 290px;
+    height: 161px;
+    bottom: 4.5px;
+    left: 387px;
+    
+}
+
+.timeline-circle1 {
+    position: absolute;
+    top: 0;
+    left: 12px;
+}
+
+
+.cpm-title {
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    top: 46px;
+
+}
+
+.cpm-blurb {
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    bottom: 23px;
+    font-weight: 200;
+    margin: 0;
+
+}
+
+.nrs-box {
+    position: absolute;
+    width: 350px;
+    height: 161px;
+    bottom: 4.5px;
+    right: 420px;
+    
+}
+
+.timeline-circle1 {
+    position: absolute;
+    top: 0;
+    left: 12px;
+}
+
+
+.nrs-title {
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    top: 46px;
+
+}
+
+.nrs-blurb {
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    bottom: 0;
+    font-weight: 200;
+    margin: 0;
+
+}
+
+.tlodge-box {
+    position: absolute;
+    width: 350px;
+    height: 161px;
+    bottom: 4.5px;
+    right: 20px;
+    
+}
+
+.timeline-circle1 {
+    position: absolute;
+    top: 0;
+    left: 12px;
+}
+
+
+.tlodge-title {
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    top: 46px;
+
+}
+
+.tlodge-blurb {
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    bottom: 23px;
+    font-weight: 200;
+    margin: 0;
+
+}
+
+
+
+
+
+
+
+.thinText {
+    font-weight: 200;
 }
