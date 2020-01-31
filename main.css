@@ -189,7 +189,6 @@ span {
     position: absolute;
     width: 337px;
     height: 171px;
-    border: 1px solid black;
     top: 62px;
     display: flex;
     justify-content: center;
@@ -207,14 +206,62 @@ span {
 
 }
 
+.music-circle-wrap {
+    position: absolute;
+    height: 110px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    bottom: 0;
+}
+
 .music-circle {
     position: absolute;
     height: 80px;
     width: 80px;
     background-color: #B5C2BE;
-    bottom: 15px;
+    top: 0;
     border-radius: 100px;
     left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        0 12.5px 10px rgba(0, 0, 0, 0.035),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        0 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.music-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 17.3px;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+.music-icon,
+.code-icon {
+    position: absolute;
+    left: 16.5px;
+}
+
+.coding-circle-wrap {
+    position: absolute;
+    height: 110px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
 }
 
 .coding-circle {
@@ -222,8 +269,39 @@ span {
     height: 80px;
     width: 80px;
     background-color: #B5C2BE;
-    bottom: 15px;
+    top: 0;
     border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        0 12.5px 10px rgba(0, 0, 0, 0.035),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        0 100px 80px rgba(0, 0, 0, 0.07);
+
+}
+
+.coding-text {
+    position: absolute;
+    bottom: 0;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.books-circle-wrap {
+    position: absolute;
+    height: 110px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    right: 0;
+
 }
 
 .books-circle {
@@ -231,9 +309,26 @@ span {
     height: 80px;
     width: 80px;
     background-color: #B5C2BE;
-    bottom: 15px;
+    top: 0;
     border-radius: 100px;
     right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        0 12.5px 10px rgba(0, 0, 0, 0.035),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        0 100px 80px rgba(0, 0, 0, 0.07);
+
 }
 
+.books-text {
+    position: absolute;
+    bottom: 0;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
 
+}
