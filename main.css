@@ -111,6 +111,9 @@ span {
     height: 680px;
     width: 1737px;
     left: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .education-box {
@@ -174,8 +177,6 @@ span {
     opacity: 0.7;
     font-size: 14px;
 
-
-
 }
 
 .fa-circle {
@@ -183,3 +184,56 @@ span {
     margin-right: 10px;
 
 }
+
+.myInterests-box {
+    position: absolute;
+    width: 337px;
+    height: 171px;
+    border: 1px solid black;
+    top: 62px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.interests-title {
+    position: absolute;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 10px;
+    text-align: center;
+
+}
+
+.music-circle {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color: #B5C2BE;
+    bottom: 15px;
+    border-radius: 100px;
+    left: 0;
+}
+
+.coding-circle {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color: #B5C2BE;
+    bottom: 15px;
+    border-radius: 100px;
+}
+
+.books-circle {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color: #B5C2BE;
+    bottom: 15px;
+    border-radius: 100px;
+    right: 0;
+}
+
+
