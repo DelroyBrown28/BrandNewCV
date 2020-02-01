@@ -98,18 +98,37 @@ html {
 
 }
 
+a {
+    text-decoration: none;
+}
+
+
+a:active,
+a:focus,
+a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
 .phone,
 .email,
-.address {
+.address,
+.github {
     color: #fafafa;
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
+    
 
+}
+
+.phone {
+    margin-top: 4px;
 }
 
 .fa-phone-alt,
 .fa-at,
-.fa-address-card {
+.fa-address-card,
+.fa-github {
     margin-right: 13px;
 }
 
@@ -365,7 +384,7 @@ html {
     font-size: 20px;
     letter-spacing: 10px;
     text-align: center;
-    
+
 }
 
 .skills-list {
@@ -376,7 +395,7 @@ html {
     font-family: 'Raleway', sans-serif;
     top: 45px;
     left: 0;
-    
+
 }
 
 #skills {
@@ -391,7 +410,7 @@ html {
     font-family: 'Raleway', sans-serif;
     top: 45px;
     right: 0;
-    
+
 }
 
 #skills-2 {
@@ -405,7 +424,7 @@ html {
     bottom: 105px;
     display: flex;
     justify-content: center;
-    
+
 }
 
 .workExperiece-title {
@@ -416,7 +435,7 @@ html {
     font-size: 20px;
     letter-spacing: 10px;
     text-align: center;
-    
+
 }
 
 .timeline {
@@ -468,7 +487,7 @@ html {
     height: 161px;
     bottom: 4.5px;
     left: 387px;
-    
+
 }
 
 .timeline-circle1 {
@@ -504,7 +523,7 @@ html {
     height: 161px;
     bottom: 4.5px;
     right: 420px;
-    
+
 }
 
 .timeline-circle1 {
@@ -540,7 +559,7 @@ html {
     height: 161px;
     bottom: 4.5px;
     right: 20px;
-    
+
 }
 
 .timeline-circle1 {
@@ -570,12 +589,16 @@ html {
 
 }
 
-
-
-
-
-
-
 .thinText {
     font-weight: 200;
+}
+
+.github:hover {
+    font-weight: 300;
+
+}
+
+.github:active {
+    font-weight: lighter;
+
 }
