@@ -44,8 +44,10 @@ html {
   cursor: pointer;
 }
 
-.fa-facebook-f {
+
+.fa-instagram {
   margin: 0px 10px 0px 10px;
+  color: #000;
 }
 
 .name-band {
@@ -188,6 +190,12 @@ a:visited {
   left: 28px;
   opacity: 0.7;
   font-size: 14px;
+}
+
+.currentlyStudying {
+  position: absolute;
+  left: 28px;
+  color: red;
 }
 
 .fa-circle {
@@ -379,6 +387,7 @@ a:visited {
   bottom: 105px;
   display: flex;
   justify-content: center;
+  
 }
 
 .workExperiece-title {
